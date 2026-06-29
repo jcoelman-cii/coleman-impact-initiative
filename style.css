@@ -1,0 +1,340 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #003366, #005599);
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ffdd33;
+}
+
+/* Mission Section */
+.mission {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.mission p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* Highlights Section */
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.highlight-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.highlight-card h3 {
+    margin-bottom: 10px;
+}
+
+.highlight-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.highlight-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+/* Page Header */
+.page-header {
+    background-color: #005599;
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* Content Blocks */
+.content-block {
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.content-block h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Program Cards */
+.program-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.program-card {
+    background-color: white;
+    width: 320px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.program-card h2 {
+    margin-bottom: 10px;
+}
+
+.program-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.program-card a:hover {
+    text-decoration: underline;
+}
+
+/* Veterans Page Enhancements */
+ul {
+    max-width: 800px;
+    margin: auto;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Shared list styling */
+ul {
+    max-width: 800px;
+    margin: auto;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005599;
+}
+
+/* Governance & Future Pages */
+ul {
+    max-width: 800px;
+    margin: auto;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.corner-art {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #003366;
+    opacity: 0.35;
+    pointer-events: none;
+}
+
+.corner-art-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #003366;
+    opacity: 0.35;
+    pointer-events: none;
+}
+
+/* Artistic Corner Motifs */
+.corner-art {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    font-size: 1rem;
+    color: #003366;
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.corner-art-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+    font-size: 1rem;
+    color: #003366;
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Regenerative Flow Section Headers */
+.section-header {
+    border-bottom: 2px dashed #005599;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #003366 0%, #005599 100%);
+    -webkit-mask-image: radial-gradient(circle, transparent 40%, black 70%);
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* Full-width environmental photo banner */
+.photo-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.full-width-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+}
+
+.small-photo {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
