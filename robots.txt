@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colemanimpactinitiative.github.io/coleman-impact-initiative/sitemap.xml
